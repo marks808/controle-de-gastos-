@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
 // Seleciona os elementos do DOM
 const formulario = document.getElementById('formulario-transacao');
 const listaTransacoes = document.getElementById('lista-transacoes');
@@ -40,4 +41,5 @@ function renderizarTransacoes() {
         itemLista.textContent = `${transacao.descricao}: R$ ${transacao.valor.toFixed(2)} (${transacao.tipo})`;
         listaTransacoes.appendChild(itemLista);
     });
+
 }
