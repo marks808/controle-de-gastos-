@@ -1,0 +1,38 @@
+#header{
+    background-color: #4CAF50; 
+    color: white; 
+    text-align: center; 
+    padding: 10px;
+}
+.container-transacoes {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center}
+#formulario-transacao {
+    background: #f4f4f4;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+}
+.btm{
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    padding: 10px 15px; 
+    cursor: pointer; 
+    border-radius: 5px;
+}
+.input{
+    padding: 10px; 
+    margin-right: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
+.container-lista{
+    margin-top: 20px;
+    text-align: center;
+}
